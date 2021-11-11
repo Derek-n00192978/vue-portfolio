@@ -1,6 +1,8 @@
 <template>
   <div>
+    <b-card-group class="a" columns>
     This is the Home Component
+    </b-card-group>
   </div>
 </template>
 

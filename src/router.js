@@ -4,6 +4,8 @@ import Home from '@/pages/Home'
 import About from '@/pages/About'
 import Contact from '@/pages/Contact'
 import Projects from '@/pages/projects/AllProjects'
+import VueDo from "@/pages/projects/vue-do/App.vue"
+
 
 Vue.use(VueRouter)
 
@@ -30,6 +32,16 @@ export default new VueRouter({
             path: '/projects',
             name: 'projects',
             component: Projects
+        },
+        {
+            path: '/demo/vue-do',
+            name: 'vue-do',
+            component: VueDo
+        },
+        {
+            path: '/demo/vue-giphy',
+            name: 'vue-giphy',
+            component: VueGiphy
         }
     ]
 })
