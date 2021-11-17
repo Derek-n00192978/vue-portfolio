@@ -1,30 +1,41 @@
 [
     {
-        "id": 1,
+        "id": 2,
         "title": "VueDo",
-        "description": "My First todo app using vue",
+        "description": "My todo app using vue",
         "project_web_site": "",
         "tags": ["Vue"],
         "images": ["vuedo.png"],
-        "date": "Oct 2021",
-        
+        "date": "Oct 2021",        
         "demo": "vue-do",
         "links": {
             "github": ""
         }        
     },
     {
-        "id": 2,
-        "title": "VueGiphy",
-        "description": "My Second app using vue called VueGiphy",
+        "id": 3,
+        "title": "VueGreeter",
+        "description": "My greeter app using vue",
         "project_web_site": "",
         "tags": ["Vue"],
-        "images": ["vueGiphy.png"],
-        "date": "Oct 2021",
-        
+        "images": ["vuegreeter.png"],
+        "date": "Oct 2021",        
+        "demo": "vue-greeter",
+        "links": {
+            "github": ""
+        }          
+    },
+    {
+        "id": 4,
+        "title": "VueGiphy",
+        "description": "My giphy app using vue",
+        "project_web_site": "",
+        "tags": ["Vue"],
+        "images": ["vuegiphy.png"],
+        "date": "Oct 2021",        
         "demo": "vue-giphy",
         "links": {
             "github": ""
-        }        
+        }          
     }
 ]

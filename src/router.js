@@ -5,6 +5,9 @@ import About from '@/pages/About'
 import Contact from '@/pages/Contact'
 import Projects from '@/pages/projects/AllProjects'
 import VueDo from "@/pages/projects/vue-do/App.vue"
+import VueGreeter from "@/pages/projects/vue-greeter/App.vue"
+import VueGiphy from "@/pages/projects/vue-giphy/App.vue"
+
 
 
 Vue.use(VueRouter)
@@ -37,6 +40,11 @@ export default new VueRouter({
             path: '/demo/vue-do',
             name: 'vue-do',
             component: VueDo
+        },
+        {
+            path: '/demo/vue-greeter',
+            name: 'vue-greeter',
+            component: VueGreeter
         },
         {
             path: '/demo/vue-giphy',
