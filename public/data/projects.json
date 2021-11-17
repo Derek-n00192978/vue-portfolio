@@ -37,5 +37,18 @@
         "links": {
             "github": ""
         }          
+    },
+    {
+        "id": 5,
+        "title": "VueCa1",
+        "description": "My first Ca application using vue",
+        "project_web_site": "",
+        "tags": ["Vue"],
+        "images": ["vueca1.png"],
+        "date": "Oct 2021",        
+        "demo": "vue-ca1",
+        "links": {
+            "github": ""
+        }          
     }
 ]

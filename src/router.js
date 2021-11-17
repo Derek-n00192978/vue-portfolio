@@ -7,6 +7,7 @@ import Projects from '@/pages/projects/AllProjects'
 import VueDo from "@/pages/projects/vue-do/App.vue"
 import VueGreeter from "@/pages/projects/vue-greeter/App.vue"
 import VueGiphy from "@/pages/projects/vue-giphy/App.vue"
+import VueCa1 from "@/pages/projects/vue-ca1/App.vue"
 
 
 
@@ -50,6 +51,11 @@ export default new VueRouter({
             path: '/demo/vue-giphy',
             name: 'vue-giphy',
             component: VueGiphy
+        },
+        {
+            path: '/demo/vue-ca1',
+            name: 'vue-ca1',
+            component: VueCa1
         }
     ]
 })
