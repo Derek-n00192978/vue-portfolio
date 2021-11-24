@@ -1,6 +1,6 @@
 <!--New page added on 14-10-2021-->
 <template>
-    <div class="about">
+    <div class="vue-ca1/about">
         <p>This is the first Ca for the Front-End Development Module of Third year Students of Creative Computing (DL836).
         </p> 
         <br>
@@ -31,7 +31,7 @@
 
 <script>
     export default {
-        name:'About'
+        name:'vue-ca1/pages/About'
     }
 </script>
 

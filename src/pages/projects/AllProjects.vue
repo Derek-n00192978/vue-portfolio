@@ -9,9 +9,9 @@
             :key="project.id"
         >
                 <div class="card-image">
-                    <figure class="image is-4by3">
-                        <img src="https://bulma.io/images/placeholder/1280x960.png" alt="Placeholder image">                        
-                    </figure>
+                    <!-- <figure class="image is-4by3">
+                        <img src="https://bulma.io/images/placeholder/700x600.png" alt="Placeholder image">                        
+                    </figure> -->
                 </div>
                 <div class="card-content">
                     <div class="media">
@@ -56,7 +56,7 @@ export default {
   computed:{
       filteredprojects: function () {
           return this.projects.filter(project => {
-              return project.title.toLowerCase().includes(this.searchTerm.toLowerCase())
+              return project.description.toLowerCase().includes(this.searchTerm.toLowerCase())
           })
       }
   },

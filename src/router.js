@@ -8,6 +8,9 @@ import VueDo from "@/pages/projects/vue-do/App.vue"
 import VueGreeter from "@/pages/projects/vue-greeter/App.vue"
 import VueGiphy from "@/pages/projects/vue-giphy/App.vue"
 import VueCa1 from "@/pages/projects/vue-ca1/App.vue"
+import ca1Home from "@/pages/projects/vue-ca1/pages/Home.vue"
+import ca1About from "@/pages/projects/vue-ca1/pages/About.vue"
+import ca1Indepth from "@/pages/projects/vue-ca1/pages/Indepth.vue"
 
 
 
@@ -55,7 +58,22 @@ export default new VueRouter({
         {
             path: '/demo/vue-ca1',
             name: 'vue-ca1',
-            component: VueCa1
-        }
+            component: VueCa1,
+        },
+        {
+            path: '/vue-ca1/home',
+            name: './vue-ca1/pages/home',
+            component: ca1Home,
+        },
+        {
+            path: '/vue-ca1/about',
+            name: './vue-ca1/pages/about',
+            component: ca1About,
+        },
+        {
+            path: '/vue-ca1/indepth/:country',
+            name: './vue-ca1/indepth',
+            component: ca1Indepth,
+        },
     ]
 })

@@ -11,9 +11,9 @@
 </template>
 <script>
 import axios from 'axios'
-import CountryViewer from '@/components/CountryViewer.vue'
+import CountryViewer from '@/pages/projects/vue-ca1/components/CountryViewer.vue'
 export default {
-    name: 'Home',
+    name: 'vue-ca1/pages/Home',
     components: {
         CountryViewer
     },

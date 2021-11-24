@@ -1,7 +1,7 @@
 <template>
     <div class="navbar" id="topnav">
         <b-nav pills>          
-            <b-nav-item><router-link :to="{name: 'home'}"><b>Home</b></router-link></b-nav-item> 
+            <b-nav-item><router-link :to="{name: 'vue-ca1'}"><b>Home</b></router-link></b-nav-item> 
             <b-nav-item><router-link :to="{name: 'about'}"><b>About</b></router-link></b-nav-item> 
              <input type="text" v-model="search" placeholder="SearchCountries"/>
             
