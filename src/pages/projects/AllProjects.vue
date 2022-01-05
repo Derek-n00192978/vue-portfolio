@@ -2,7 +2,7 @@
   <div class="columns">
     <div class="column">
         <b-field>
-            <b-input v-model="searchTerm"></b-input>
+            <b-input v-model="searchTerm">Search Portfolio</b-input>
         </b-field>
         <div class="card"
             v-for="project in filteredprojects"
