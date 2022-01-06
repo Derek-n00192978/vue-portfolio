@@ -2,8 +2,7 @@
     {
         "id": 2,
         "title": "VueDo",
-        "description": "My todo app using vue",
-        "project_web_site": "",
+        "description": "My todo application using vue.",
         "tags": ["Vue"],
         "images": ["vuedo.png"],
         "date": "Oct 2021",        
@@ -15,8 +14,7 @@
     {
         "id": 3,
         "title": "VueGreeter",
-        "description": "My greeter app using vue",
-        "project_web_site": "",
+        "description": "Basic vue application with personilazed greeter (hardcoded name) ",
         "tags": ["Vue"],
         "images": ["vuegreeter.png"],
         "date": "Oct 2021",        
@@ -28,8 +26,7 @@
     {
         "id": 4,
         "title": "VueGiphy",
-        "description": "My giphy app using vue",
-        "project_web_site": "",
+        "description": "My giphy application using a giphy generator to populate the page.",
         "tags": ["Vue"],
         "images": ["vuegiphy.png"],
         "date": "Oct 2021",        
@@ -41,8 +38,9 @@
     {
         "id": 5,
         "title": "VueCa1",
-        "description": "Country Viewer Web App",
-        "tags": ["Vue"],
+        "description": "Our first Ca for year three in front/end development module. It is a website displaying all the countries using a rest API to populate the page.",
+        "website": "https://frontendca1.web.app/",
+        "tags": ["Vue", "Axios"],
         "date": "Nov 2021",
         "demo": ""
         

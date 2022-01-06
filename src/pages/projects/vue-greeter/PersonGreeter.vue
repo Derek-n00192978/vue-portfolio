@@ -1,7 +1,7 @@
 <template>
     <div>
         <p>
-            Hello, {{ personName}}
+            Hello, <strong>{{ personName}}</strong>
         </p>
         <p>
         </p>    

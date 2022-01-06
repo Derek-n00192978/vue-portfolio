@@ -2,7 +2,7 @@
   <div class="columns">
     <div class="column">
         <b-field>
-            <b-input v-model="searchTerm">Search Portfolio</b-input>
+            <b-input v-model="searchTerm" placeholder="Search Portfolio Application">Search Portfolio</b-input>
         </b-field>
         <div class="card"
             v-for="project in filteredprojects"
@@ -24,6 +24,7 @@
                                     :key="tag"
                                     type="is-primary"
                                     >
+                                    {{tag}}
                                     </b-tag>
                                 </b-taglist>
                             </p>
@@ -34,6 +35,9 @@
                     </div>
                 </div>
             <router-link v-if="project.demo" :to="{ name: project.demo }">Demo</router-link>
+            <p v-if="project.website">
+            <a :href="project.website" target="_blank">Website</a>
+            </p>
         </div> 
     </div>
   </div>

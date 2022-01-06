@@ -16,7 +16,7 @@
             </b-list-group>
 
             <template v-slot:footer>
-                <input type="text" v-model="todoText" v-on:keyup.enter="addNewTodo()" />
+                <input type="text" v-model="todoText" placeholder="Add todo item here!" v-on:keyup.enter="addNewTodo()" />
                 <b-button class="float-end" variant="primary" @click="addNewTodo()">Add</b-button>
             </template>
         </b-card>        

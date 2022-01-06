@@ -1,7 +1,7 @@
 <template>
 	<div>
 		<div class="search-box">
-			<input type="text" v-model="term" v-on:keyup.enter="searchGiphy()" />
+			<input type="text" v-model="term" v-on:keyup.enter="searchGiphy()" placeholder="Search Giphs" />
 			<b-button class="float-end" variant="primary" @click="searchGiphy()"
 				>Search</b-button
 			>
